@@ -1,0 +1,21 @@
+[info]
+title=SQL Format
+desc=Formats SQL code (using sqlparse library)
+type=cudatext-plugin
+subdir=cuda_sql_format
+
+[item1]
+section=commands
+caption=SQL Format\Format
+method=run
+lexers=SQL
+
+[item2]
+section=commands
+caption=SQL Format\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=SQL Format\Configure (local)
+method=config_local
